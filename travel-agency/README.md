@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+# ✈️ XYZ Travel Agency – Trip Booking Platform (React.js)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a responsive and interactive front-end travel booking platform built using **React.js** for XYZ Travel Agency. It allows users to search, filter, and explore vacation packages with an engaging UI experience.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🔗 Live Website
 
-### `npm start`
+🌐 **Deployed on Vercel:**  
+👉 [https://travel-agency-five-gamma.vercel.app/](https://travel-agency-five-gamma.vercel.app/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🧾 Submission Links
 
-### `npm test`
+- 🔗 **GitHub Repository:**  
+  [https://github.com/CHHARSHITHAREDDY/Travel-agency](https://github.com/CHHARSHITHAREDDY/Travel-agency)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📦 Project Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Frontend:** React.js (with React Router, useState, useEffect)
+- **Data:** Static JSON for trip packages
+- **Deployment:** Vercel
+- **Design:** Fully responsive with custom CSS styling and gradients
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📂 Folder Overview
 
-### `npm run eject`
+travel-agency/
+├── public/
+├── src/
+│ ├── assets/
+│ ├── components/
+│ ├── data/
+│ ├── pages/
+│ ├── App.js
+│ └── index.js
+├── package.json
+├── README.md
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🛠️ Setup & Run Instructions
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 🚀 Local Development Setup
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/CHHARSHITHAREDDY/Travel-agency.git
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**2. Install dependencies**  
+`npm install`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**3. Run the app locally**  
+`npm start`
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📌 Features Implemented
 
-### Analyzing the Bundle Size
+### ✅ Pages Included (3 of 5 Required)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+**Home Page**  
+- Beautiful layout with a gradient theme.  
+- Featured destinations (static images for demo).  
+- Search bar (UI only, non-functional).
 
-### Making a Progressive Web App
+**Search Results Page**  
+- Dynamically renders trip cards from JSON data.  
+- Filtering options: price, location, and duration.  
+- Responsive grid layout with hover animations.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+**Trip Details Page**  
+- Detailed view of selected trip.  
+- Includes images, duration, pricing, and itinerary.
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
