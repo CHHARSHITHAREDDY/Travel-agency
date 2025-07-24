@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "destination": "Bali, Indonesia",
+    "price": "800",
+    "duration": "7 days",
+    "rating": "4.8",
+    "images": ["/images/image1.jpeg", "/images/image2.jpeg"],
+    "itinerary": [
+      "Day 1: Arrival in Bali",
+      "Day 2: Visit to Uluwatu Temple",
+      "Day 3: Snorkeling at Nusa Dua",
+      "Day 4: Local market tour",
+      "Day 5-7: Relax at beach resort"
+    ]
+  },
+  {
+    "id": 2,
+    "destination": "Kyoto, Japan",
+    "price": "1200",
+    "duration": "5 days",
+    "rating": "4.7",
+    "images": ["/images/image3.jpeg", "/images/image4.jpeg"],
+    "itinerary": [
+      "Day 1: Arrival in Kyoto",
+      "Day 2: Tour of Kinkaku-ji Temple",
+      "Day 3: Cherry blossom viewing",
+      "Day 4: Local food experience",
+      "Day 5: Departure"
+    ]
+  }
+]

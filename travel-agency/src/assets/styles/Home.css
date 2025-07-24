@@ -1,0 +1,87 @@
+/* Home.css */
+
+.home {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 1rem;
+  background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  text-align: center;
+  box-sizing: border-box;
+}
+.home h1 {
+  font-size: 3.5rem;
+  margin-bottom: 2.5rem;
+  background: linear-gradient(90deg, #ff1493, #8000ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+  text-shadow: 3px 3px 12px rgba(0, 0, 0, 0.6);
+  animation: glowPop 4s ease-in-out infinite;
+  letter-spacing: 1px;
+}
+
+/* Animation to add gentle glow and bounce */
+@keyframes glowPop {
+  0%, 100% {
+    transform: scale(1);
+    text-shadow: 3px 3px 12px rgba(0, 0, 0, 0.6);
+  }
+  50% {
+    transform: scale(1.05);
+    text-shadow: 0 0 20px #ff69b4, 0 0 30px #ba55d3;
+  }
+}
+
+
+.home form {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.home input {
+  padding: 0.75rem 1rem;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  font-size: 1rem;
+  width: 250px;
+  transition: border 0.3s;
+}
+
+.home input:focus {
+  outline: none;
+  border-color: #888;
+}
+
+.home button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #ff69b4;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.home button:hover {
+  background-color: #ff1493;
+}
+
+@media (max-width: 480px) {
+  .home form {
+    flex-direction: column;
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .home input,
+  .home button {
+    width: 100%;
+    margin: 0.25rem 0;
+  }
+}
